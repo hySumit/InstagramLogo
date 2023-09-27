@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            width: 100%;
+            height: 100vh;
+            background-color: rgb(105, 40, 86);
+            /* background: radial-gradient(circle at 33% 100%, #203957 4%, #2c0213 30%, #1a411a 62%, #2b6b60 85%, #515ecf); */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .instagram{
+            background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+            height: 200px;
+            width: 200px;
+            border-radius: 54px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+             */
+        }
+        .inner{
+            height: 130px;
+            width: 130px;
+            border: 12px solid white;
+            border-radius: 35px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            
+        }
+        .circle{
+            height: 70px;
+            width: 70px;
+            border: 12px solid white;
+            border-radius: 50%;
+            display: flex;
+            
+            
+            /* justify-content: flex-end;
+            align-items: flex-start; */
+            /* justify-content: center;
+            align-items: center; */
+        }
+        .dot{
+            height: 18px;
+            width: 18px;
+            border-radius: 50%;
+            background-color: white;
+            position: absolute;
+            margin-top: 10px;
+            margin-right: 10px;
+            top: 0;
+            right: 0;
+            gap: 5px;
+
+        }
+
+
+    </style>
+    <title>Insagram Logo</title>
+</head>
+<body>
+    <di class="container">
+        <div class="instagram">
+            <div class="inner">
+                <div class="circle">
+                    <div class="dot"></div>
+                </div>
+            </div>
+        </div>
+    </di>
+</body>
+</html>
